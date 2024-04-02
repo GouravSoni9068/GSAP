@@ -27,6 +27,9 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+.nav .logo{
+    width: 230px;
+}
 .nav ul{
     display: flex;
     gap: 56px;
@@ -64,4 +67,63 @@ body{
 }
 .btn{
     padding: 12px 10px;
+}
+
+
+.container{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.midSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.midSection h1{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midSection span
+{
+    font-size: 35px;
+    background-color: brown;
+    border-radius: 50px;
+    margin: 0px 20px;
+    padding: 15px 15px;
+}
+
+.leftImg{
+    width: 180px;
+    border-radius: 8px;
+    height: 250px;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+.rightImg{
+    width: 150px;
+    border-radius: 8px;
+    height: 250px;
+    position: absolute;
+    right: 50px;
+    bottom: 100px;
+
+}
+
+.scrollDown{
+    width: 100vw;
+    position: absolute;
+    bottom:40px;
+    text-align: center;
 }
