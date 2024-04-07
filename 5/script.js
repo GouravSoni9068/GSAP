@@ -27,6 +27,21 @@ tl.to(".loader",{
     duration:2,
 })
 
+gsap.from(".page2 .box",{
+    scale:0,
+    opacity:0,
+    duration:2,
+    stagger: 0.3,
+
+    scrollTrigger:{
+        trigger:".page2 .box",
+        scroller:"body",
+        markers:true,
+        start:"top 30%",
+        end:"top 0%",
+    }
+})
+
 
 
 tl.to(".page1 h1",{

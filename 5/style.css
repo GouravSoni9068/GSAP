@@ -62,7 +62,18 @@ html,body{
     height: 100%;
     width: 100%;
     background-color: rgb(52, 52, 52);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: solid 2px white;
+}
+
 .page3{
     height: 100%;
     width: 100%;
