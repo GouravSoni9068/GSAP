@@ -1,0 +1,70 @@
+@font-face {
+    font-family: heading;
+    src: url(Heading-Now-Variable.ttf);
+}
+
+
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.loader{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(170, 171, 172);
+    position:fixed;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.loader div{
+    font-size: medium;
+}
+.loader h1{
+    font-family: fantasy;
+    font-weight: 100;
+}
+.page1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+
+}
+.page1 h1{
+    font-family: heading;
+    text-transform: uppercase;
+    font-size: 35vw;
+    font-stretch: 300%;
+    white-space: nowrap;
+    font-weight: 999;
+    
+}
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(52, 52, 52);
+}
+.page3{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
